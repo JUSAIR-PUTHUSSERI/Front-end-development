@@ -1,5 +1,3 @@
-# Front-end-development
-
 # HTML :
 
 ## First create a html page:
@@ -168,17 +166,16 @@
 
 ```
 
-<form>
-  <label for="">First name:</label><br>
-  <input type="text" id="" name=""><br>
-  <label for="">Last name:</label><br>
-  <input type="text" id="" name=""><br><br>
-
-  <input type="radio" id="" name="fav_language" >
-  <label for="male">male</label><br>
-  <input type="radio" id="" name="fav_language" >
-  <label for="female">female</label>
-</form>
+ <form>
+        <label for="">First name:</label><br>
+        <input type="text" id="" name=""><br>
+        <label for="">Last name:</label><br>
+        <input type="text" id="" name=""><br>
+        <input type="radio" id="" name="fav_language" >
+        <label for="male">male</label><br>
+        <input type="radio" id="" name="fav_language" >
+        <label for="female">female</label>
+      </form>
 
 
 ### body part:
