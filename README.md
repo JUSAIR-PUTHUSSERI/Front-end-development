@@ -287,3 +287,35 @@
 </body>
 </html>
 ```
+
+
+## CSS topic
+
+1. color
+2. background
+3. border
+4. height
+5. weight
+6. margin
+7. padding
+8. outline
+9. text
+10. font
+11. display
+12. justify
+13. align
+14. overflow
+15. z-index
+16. opacity
+17. url()
+18. hover
+19. focous
+20. gradient
+21. box-shadow
+22. blur
+23. object fit
+24. units
+25. translate
+26. rotate
+27. Animation
+
