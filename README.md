@@ -1000,3 +1000,60 @@
 
 ```
 
+
+## How to setup tailwindcss in html
+
+
+### Step 1 :  Install tailwindcss
+
+```
+npm install -D tailwindcss
+```
+```
+npx tailwindcss init
+```
+### Step 2 : Add the paths to tailwind.config.js file.
+
+```
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["*.html"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+### Step 3 : Create src/input.css and add it.
+
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+#### Step 4 : Run your CSS.
+
+```
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+```
+
+### Step 5 : Add your output.css into your html file ,the output.css is generated after the step4
+
+```
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+</body>
+</html>
+
+```
